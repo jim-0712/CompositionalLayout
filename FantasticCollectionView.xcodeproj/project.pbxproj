@@ -16,6 +16,12 @@
 		FB9C8DDE2754A83F001E3237 /* FantasticCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DDD2754A83F001E3237 /* FantasticCollectionViewTests.swift */; };
 		FB9C8DE82754A83F001E3237 /* FantasticCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DE72754A83F001E3237 /* FantasticCollectionViewUITests.swift */; };
 		FB9C8DEA2754A83F001E3237 /* FantasticCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DE92754A83F001E3237 /* FantasticCollectionViewUITestsLaunchTests.swift */; };
+		FB9C8DF72754AF7A001E3237 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DF62754AF7A001E3237 /* TextCell.swift */; };
+		FB9C8DF92755C694001E3237 /* SingleColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DF82755C694001E3237 /* SingleColumnViewController.swift */; };
+		FB9C8DFB2755D532001E3237 /* DoubleColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DFA2755D532001E3237 /* DoubleColumnViewController.swift */; };
+		FB9C8DFD2755F267001E3237 /* FourSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DFC2755F267001E3237 /* FourSpaceViewController.swift */; };
+		FB9C8DFF2755FF5E001E3237 /* MutipleSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DFE2755FF5E001E3237 /* MutipleSectionViewController.swift */; };
+		FB9C8E0127561330001E3237 /* TitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8E0027561330001E3237 /* TitleSupplementaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		FB9C8DE32754A83F001E3237 /* FantasticCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9C8DE72754A83F001E3237 /* FantasticCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticCollectionViewUITests.swift; sourceTree = "<group>"; };
 		FB9C8DE92754A83F001E3237 /* FantasticCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB9C8DF62754AF7A001E3237 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		FB9C8DF82755C694001E3237 /* SingleColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColumnViewController.swift; sourceTree = "<group>"; };
+		FB9C8DFA2755D532001E3237 /* DoubleColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleColumnViewController.swift; sourceTree = "<group>"; };
+		FB9C8DFC2755F267001E3237 /* FourSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSpaceViewController.swift; sourceTree = "<group>"; };
+		FB9C8DFE2755FF5E001E3237 /* MutipleSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutipleSectionViewController.swift; sourceTree = "<group>"; };
+		FB9C8E0027561330001E3237 /* TitleSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				FB9C8DCF2754A83E001E3237 /* Assets.xcassets */,
 				FB9C8DD12754A83E001E3237 /* LaunchScreen.storyboard */,
 				FB9C8DD42754A83E001E3237 /* Info.plist */,
+				FB9C8DF62754AF7A001E3237 /* TextCell.swift */,
+				FB9C8E0027561330001E3237 /* TitleSupplementaryView.swift */,
+				FB9C8DF82755C694001E3237 /* SingleColumnViewController.swift */,
+				FB9C8DFA2755D532001E3237 /* DoubleColumnViewController.swift */,
+				FB9C8DFC2755F267001E3237 /* FourSpaceViewController.swift */,
+				FB9C8DFE2755FF5E001E3237 /* MutipleSectionViewController.swift */,
 			);
 			path = FantasticCollectionView;
 			sourceTree = "<group>";
@@ -258,8 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9C8DFB2755D532001E3237 /* DoubleColumnViewController.swift in Sources */,
+				FB9C8DFD2755F267001E3237 /* FourSpaceViewController.swift in Sources */,
+				FB9C8DF92755C694001E3237 /* SingleColumnViewController.swift in Sources */,
+				FB9C8E0127561330001E3237 /* TitleSupplementaryView.swift in Sources */,
 				FB9C8DCB2754A83A001E3237 /* ViewController.swift in Sources */,
 				FB9C8DC72754A83A001E3237 /* AppDelegate.swift in Sources */,
+				FB9C8DFF2755FF5E001E3237 /* MutipleSectionViewController.swift in Sources */,
+				FB9C8DF72754AF7A001E3237 /* TextCell.swift in Sources */,
 				FB9C8DC92754A83A001E3237 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
