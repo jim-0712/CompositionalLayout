@@ -48,6 +48,7 @@ extension MutipleSectionViewController {
             section.contentInsets = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
             return section
         }
+        
         return layout
     }
     
