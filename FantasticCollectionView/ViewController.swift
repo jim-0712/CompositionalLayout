@@ -42,6 +42,7 @@ class ViewController: UIViewController {
                                               items: [ListItem(title: "1 Column", vc: SingleColumnViewController.self),
                                                       ListItem(title: "2 Columns", vc: DoubleColumnViewController.self),
                                                       ListItem(title: "2 x 2", vc: FourSpaceViewController.self),
+                                                      ListItem(title: "3 x 4", vc: TwelveViewController.self),
                                                       ListItem(title: "MutipleSection", vc: MutipleSectionViewController.self)])]
 
     override func viewDidLoad() {

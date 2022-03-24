@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB747A4E2758A51100ABF63F /* TwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB747A4D2758A51100ABF63F /* TwelveViewController.swift */; };
 		FB9C8DC72754A83A001E3237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DC62754A83A001E3237 /* AppDelegate.swift */; };
 		FB9C8DC92754A83A001E3237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DC82754A83A001E3237 /* SceneDelegate.swift */; };
 		FB9C8DCB2754A83A001E3237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C8DCA2754A83A001E3237 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB747A4D2758A51100ABF63F /* TwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelveViewController.swift; sourceTree = "<group>"; };
 		FB9C8DC32754A83A001E3237 /* FantasticCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9C8DC62754A83A001E3237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9C8DC82754A83A001E3237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				FB9C8DF82755C694001E3237 /* SingleColumnViewController.swift */,
 				FB9C8DFA2755D532001E3237 /* DoubleColumnViewController.swift */,
 				FB9C8DFC2755F267001E3237 /* FourSpaceViewController.swift */,
+				FB747A4D2758A51100ABF63F /* TwelveViewController.swift */,
 				FB9C8DFE2755FF5E001E3237 /* MutipleSectionViewController.swift */,
 			);
 			path = FantasticCollectionView;
@@ -285,6 +288,7 @@
 				FB9C8DFF2755FF5E001E3237 /* MutipleSectionViewController.swift in Sources */,
 				FB9C8DF72754AF7A001E3237 /* TextCell.swift in Sources */,
 				FB9C8DC92754A83A001E3237 /* SceneDelegate.swift in Sources */,
+				FB747A4E2758A51100ABF63F /* TwelveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
